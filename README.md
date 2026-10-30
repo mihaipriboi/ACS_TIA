@@ -6,15 +6,27 @@ This repository contains the laboratory assignments, notebooks, and datasets for
 
 ```text
 ACS_TIA/
-├── labNN/                  # One folder per lab: notebooks, scripts, and the datasets they use
+├── labNN/                  # One folder per lab: requirements, notebooks, scripts, and the datasets they use
 ├── materials/              # Course materials downloaded from Moodle
+│   ├── courses/            # Lecture slides
+│   └── lab/                # General lab slides (syllabus, grading)
 └── README.md
 ```
+
+Every folder has its own `README.md` describing its contents.
+
+## Materials
+
+| Folder | Contents |
+|--------|----------|
+| [materials/courses](materials/courses/) | Lectures 1–4: introduction, preprocessing, feature engineering, ML techniques |
+| [materials/lab](materials/lab/) | Lab syllabus and grading rules |
 
 ## Labs
 
 | Lab | Topic | Folder |
 |-----|-------|--------|
+| 02 | Linear Regression | [lab02](lab02/) |
 
 ## Tooling
 
