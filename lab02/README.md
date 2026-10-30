@@ -2,6 +2,8 @@
 
 Requirements: [Cerinte Laborator TIA 2.pdf](Cerinte%20Laborator%20TIA%202.pdf)
 
+Notebook: [lab02.ipynb](lab02.ipynb)
+
 ## Tasks
 
 1. **Data processing** – turn `Year_Built` into "years since construction"; apply Min-Max normalization to `Square_Footage`.
