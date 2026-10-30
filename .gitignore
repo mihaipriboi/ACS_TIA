@@ -1,0 +1,16 @@
+# Local notes
+.local/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
