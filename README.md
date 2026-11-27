@@ -27,11 +27,12 @@ Every folder has its own `README.md` describing its contents.
 | Lab | Topic | Folder |
 |-----|-------|--------|
 | 02 | Linear Regression | [lab02](lab02/) |
+| 04 | Unsupervised Learning (K-Means) | [lab04](lab04/) |
 
 ## Tooling
 
 - **Language:** Python 3
-- **Libraries:** NumPy, pandas, scikit-learn, Matplotlib
+- **Libraries:** NumPy, pandas, scikit-learn, SciPy, Matplotlib
 - **Notebooks:** JupyterLab or VS Code (Jupyter extension)
 
 Setting up a virtual environment:
@@ -39,7 +40,7 @@ Setting up a virtual environment:
 ```sh
 python -m venv .venv
 source .venv/bin/activate
-pip install numpy pandas scikit-learn matplotlib jupyterlab
+pip install numpy pandas scikit-learn scipy matplotlib jupyterlab
 ```
 
 Then start JupyterLab from the repository root:
